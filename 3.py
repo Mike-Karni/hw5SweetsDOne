@@ -8,7 +8,6 @@ sweets1 = 0 # инициализация переменной , конфеты, 
 sweets2 = 0 # инициализация переменной , конфеты, кот берёт второй игрок
 playerID = 0 # айди игрока - по нему определяем победителя на кратность
 whoseMove = random.randint(0, 1)
-#print(f"Результат рандома {whoseMove} ")
 whoseMove = (whoseMove + 1) % 2
 
 
@@ -16,8 +15,6 @@ whoseMove = (whoseMove + 1) % 2
 while quantitySweets >= 0:
         whoseMove = (whoseMove + 1) % 2
         if whoseMove == 0:
-
-
             print(f"Ход {countStep+1}")
             sweets1 = int(input(f"Введите количество конфет, которые возьмёт первый игрок {name1} "))
             while sweets1 <= 0 or sweets1 > 28: # проверка
