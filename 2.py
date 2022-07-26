@@ -3,9 +3,6 @@ import random
 name1 = input("имя 1 ")
 name2 = input("ДАЙ РОБОТУ ИМЯ ")
 quantitySweets = int(input("Введите количество конфет = ")) # количество конфет на столе
-#playersChoice = [1,2]
-#whoStart = random.choice(playersChoice)
-#print(whoStart)
 countStep = 0  # переменная хода
 sweets1 = 0 # инициализация переменной , конфеты, кот берёт первый игрок
 sweets2 = 0 # инициализация переменной , конфеты, кот берёт второй игрок
